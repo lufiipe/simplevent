@@ -1,0 +1,33 @@
+{
+    "version": "1.0.0",
+    "name": "lufiipe/simplevent",
+    "description": "Simple PHP event listener library",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "php",
+        "event",
+        "emitter",
+        "listener"
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "LuFiipe\\SimplEvent\\": "src/",
+            "LuFiipe\\SimplEvent\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis-Filipe ANTUNES",
+            "email": "luisfilipe.antunes.dasilva@gmail.com"
+        }
+    ]
+}
